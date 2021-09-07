@@ -10,7 +10,7 @@
 ---
 
 ## 📖 About
-<p>SPA app to find a coach in specific areas and contact him.</p>
+<p>MPA app to find a coach in specific areas and contact him.</p>
 
 ---
 
