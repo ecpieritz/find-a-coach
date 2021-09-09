@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div>DETAILS FOR COACH</div>
 </template>
 
 <script>
