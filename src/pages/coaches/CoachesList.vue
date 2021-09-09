@@ -1,10 +1,10 @@
 <template>
   <div>
     <section>
-      <p>FILTER</p>
+      FILTER
     </section>
     <section>
-      <p>LIST OF COACHES</p>
+      LIST OF COACHES
     </section>
   </div>
 </template>
