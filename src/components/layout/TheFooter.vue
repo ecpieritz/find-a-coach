@@ -29,5 +29,34 @@ export default {
 </script>
 
 <style scoped>
-  
+  footer{
+    width: 100%;
+    height: 4rem;
+    background-color: #5c0e43;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer h3{
+    color: #fff;
+    margin-left: 2rem;
+  }
+
+  footer .socials{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 110px;
+    justify-content: space-between;
+    margin-right: 2rem;
+  }
+
+  footer .socials #linkedin, .socials #instagram, .socials #github{
+  width: 30px;
+}
 </style>
