@@ -1,10 +1,14 @@
 <template>
+  <TheHeader />
   <router-view></router-view>
 </template>
 
 <script>
+import TheHeader from './components/layout/TheHeader.vue'
 export default {
-
+  components: {
+    TheHeader
+  }
 }
 </script>
 
@@ -21,5 +25,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #300322;
+  color: #fff;
 }
 </style>
