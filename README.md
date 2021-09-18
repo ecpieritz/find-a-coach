@@ -19,8 +19,8 @@
 - HTML
 - Javascript
 - Vue.js
-- Vuex
-- Vue Router
+  - Vuex
+  - Vue Router
 
 ---
 
