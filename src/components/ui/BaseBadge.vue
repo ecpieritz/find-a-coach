@@ -1,6 +1,6 @@
 <template>
   <span class="badge" :class="type">
-    {{text}}
+    {{ text }}
   </span>
 </template>
 
@@ -8,8 +8,8 @@
 export default {
   props: ['type', 'title'],
   computed: {
-    text(){
-      return this.title.toUpperCase()
+    text() {
+      return this.title.toUpperCase();
     }
   }
 }
@@ -24,17 +24,14 @@ export default {
   display: inline-block;
   margin-right: 0.5rem;
 }
-
 .frontend {
   background-color: #000e8d;
   color: white;
 }
-
 .backend {
   background-color: #650eac;
   color: white;
 }
-
 .career {
   background-color: #b3008c;
   color: white;

@@ -1,7 +1,7 @@
 <template>
   <li>
-    <h3>{{fullName}}</h3>
-    <h4>${{rate}}/hour</h4>
+    <h3>{{ fullName }}</h3>
+    <h4>${{ rate }}/hour</h4>
     <div>
       <base-badge v-for="area in areas" :key="area" :type="area" :title="area"></base-badge>
     </div>
@@ -13,28 +13,26 @@
 </template>
 
 <script>
-import BaseBadge from '../ui/BaseBadge.vue'
 export default {
-  components: { BaseBadge },
   props: ['id', 'firstName', 'lastName', 'rate', 'areas'],
   computed: {
-    fullName(){
-      return this.firstName + ' ' + this.lastName
+    fullName() {
+      return this.firstName + ' ' + this.lastName;
     },
-    coachContactLink(){
-      return this.$route.path + '/' + this.id + '/contact' // /coaches/c1/contact
+    coachContactLink() {
+      return this.$route.path + '/' + this.id + '/contact'; // /coaches/c1/contact
     },
-    coachDetailsLink(){
-       return this.$route.path + '/' + this.id
-    }
-  }
-}
+    coachDetailsLink() {
+      return this.$route.path + '/' + this.id; // /coaches/c1
+    },
+  },
+};
 </script>
 
 <style scoped>
 li {
   margin: 1rem 0;
-  border: 1px solid #70c3e9;
+  border: 1px solid #74146c;
   border-radius: 12px;
   padding: 1rem;
 }

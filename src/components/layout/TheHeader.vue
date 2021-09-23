@@ -1,26 +1,26 @@
 <template>
   <header>
     <nav>
-      <h1><router-link to="/">Find a Coach</router-link></h1>
+      <h1>
+        <router-link to="/">Find a Coach</router-link>
+      </h1>
       <ul>
-        <li><router-link to="/coaches">All Coaches</router-link></li>
-        <li><router-link to="/requests">Requests</router-link></li>
+        <li>
+          <router-link to="/coaches">All Coaches</router-link>
+        </li>
+        <li>
+          <router-link to="/requests">Requests</router-link>
+        </li>
       </ul>
     </nav>
   </header>
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
 <style scoped>
 header {
   width: 100%;
   height: 5rem;
-  background-color: #5c0e43;
+  background-color: #74146c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,7 @@ header {
 
 header a {
   text-decoration: none;
-  color: #70c3e9;
+  color: #91c4f3;
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border: 1px solid transparent;
@@ -37,7 +37,7 @@ header a {
 a:active,
 a:hover,
 a.router-link-active {
-  border: 1px solid #70c3e9;
+  border: 1px solid #91c4f3;
 }
 
 h1 {

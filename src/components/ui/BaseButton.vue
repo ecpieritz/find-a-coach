@@ -9,8 +9,8 @@
 
 <script>
 export default {
-  props:{
-    mode:{
+  props: {
+    mode: {
       type: String,
       required: false,
       default: null
@@ -20,7 +20,7 @@ export default {
       required: false,
       default: false
     },
-    to:{
+    to: {
       type: String,
       required: false,
       default: '/'
@@ -43,7 +43,6 @@ a {
   margin-right: 0.5rem;
   display: inline-block;
 }
-
 a:hover,
 a:active,
 button:hover,
@@ -51,19 +50,16 @@ button:active {
   background-color: #3886aa;
   border-color: #3886aa;
 }
-
 .flat {
   background-color: transparent;
   color: #70c3e9;
   border: none;
 }
-
 .outline {
   background-color: transparent;
   border-color: #3886aa;
   color: #3886aa;
 }
-
 .flat:hover,
 .flat:active,
 .outline:hover,
